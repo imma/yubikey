@@ -1,0 +1,19 @@
+Downloads:
+
+https://www.yubico.com/support/knowledge-base/categories/articles/yubikey-neo-manager/
+
+Guides:
+
+https://www.yubico.com/support/knowledge-base/categories/articles/use-yubikey-openpgp/
+
+Save the one-time exported gpg key:
+
+find .gnupg/sk*
+
+Generate the public gpg key:
+
+gpg2 --armor --export $email
+
+Generate the ssh key from the gpg key:
+
+ssh-add -L
