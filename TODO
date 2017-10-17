@@ -17,3 +17,7 @@ gpg2 --armor --export $email
 Generate the ssh key from the gpg key:
 
 ssh-add -L
+
+Change yubikey pin:
+
+gpg2 --card-edit
