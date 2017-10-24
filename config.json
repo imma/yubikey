@@ -1,0 +1,22 @@
+{
+  "params": {
+    "palette": {
+      "primary": "red",
+      "accent": "orange"
+    },
+    "menu": {
+      "main": [
+        {
+          "name": "home",
+          "url": "/",
+          "weight": 10
+        },
+        {
+          "name": "yubikey",
+          "url": "/yubikey",
+          "weight": 100
+        }
+      ]
+    }
+  }
+}
